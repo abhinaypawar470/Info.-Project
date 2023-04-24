@@ -1,0 +1,92 @@
+@font-face {
+    font-family: orbitron;
+    src: url(Orbitron-VariableFont_wght.ttf);
+}
+
+hr {
+    border: 10px double #0d8ac7;
+    border-radius: 20px;
+    width: auto;
+}
+
+ul {
+    font-size: x-large;
+    color: #ec2025;
+}
+
+dl {
+    padding: 0px 0px 0px 30px;
+}
+
+dt {
+    font-size: xx-large;
+    font-weight: bold;
+    color: #ec2025;
+}
+
+dd {
+    font-size: x-large;
+    padding-top: 20px;
+    color: #0d8ac7;
+}
+
+.dtconcept {
+    font-size: x-large;
+}
+
+.ddconcept {
+    font-size: large;
+}
+
+li {
+    padding-left: 10px;
+}
+
+button {
+    position: fixed;
+    background-color: #e7e697;
+    width: 80px;
+    height: 80px;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 50%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+a:link {
+    color: #d49f18;
+    text-decoration: none;
+}
+
+#java:link {
+    color: #ec2025;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #000000;
+}
+
+#java:visited {
+    color: #000000;
+}
+
+a:hover {
+    font-size: xx-large;
+    transition: 1s;
+    color: cyan;
+}
+
+#java:hover {
+    color: #d49f18;
+    font-size: 40px;
+}
+
+#java:active {
+    color: #001aff;
+}
+
+a:active {
+    color: #001aff;
+}
